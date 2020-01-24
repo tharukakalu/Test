@@ -25,6 +25,11 @@ class SignIn extends Component {
 
     onClick() {
         const { email, password } = this.state;
+
+        this.setState({
+            error: '',
+        });
+
         if (!isEmail(email)) {
             this.setState({
                 error: localStrings.email,
