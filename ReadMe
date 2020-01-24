@@ -1,6 +1,9 @@
 
    
-1.   react-native init nimesh_test
+1.   brew install node
+     brew install watchman
+     npm install -g react-native-cli
+
 2.   react-native init nimesh_test
 3.   cd nimesh_test
      git init
@@ -8,9 +11,10 @@
 4.   git commit -m 'Fresh React Native app'
 
 5.   npm start
-     eact-native run-android / eact-native run-ios 
+     eact-native run-android / react-native run-ios 
 
 9.   cd android && ./gradlew assembleRelease   
+
      and also can using Android stdio we can create release apk fle
      if ios using Xcode we can archive to test flight    
 
