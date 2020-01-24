@@ -10,7 +10,9 @@
 5.   npm start
      eact-native run-android / eact-native run-ios 
 
-9.   cd android && ./gradlew assembleRelease      
+9.   cd android && ./gradlew assembleRelease   
+     and also can using Android stdio we can create release apk fle
+     if ios using Xcode we can archive to test flight    
 
 
 (10)
