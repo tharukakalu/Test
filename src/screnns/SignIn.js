@@ -25,8 +25,19 @@ class SignIn extends Component {
     }
 
     onClick() {
+        const { email, password } = this.state;
+        if (!isEmail(email)) {
+            this.setState({
+                error: localStrings.email,
+            });
+        } else {
+            if (password == '') {
+                this.setState({
+                    error: localStrings.password,
+                });
+            }
 
-
+        }
     }
 
     render() {
