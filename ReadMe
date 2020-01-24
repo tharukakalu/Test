@@ -1,0 +1,26 @@
+
+   
+1.   react-native init nimesh_test
+2.   react-native init nimesh_test
+3.   cd nimesh_test
+     git init
+     git add .
+4.   git commit -m 'Fresh React Native app'
+
+5.   npm start
+     eact-native run-android / eact-native run-ios 
+
+9.   cd android && ./gradlew assembleRelease      
+
+
+(10)
+
+ * Apache cordova has better buil time profoments than react natibe beacuse react native supports native functions such as Camera so build time take some. 
+ * Apache cordova take render time will always take longer than native applications 
+
+ (11) Using React navigation Routers it can present common stack navigation and tabbed navigation patterns on both Android and iOS.
+
+
+ (12) Normaly react funcation does not allow lifecycle methords but hooks let you work React state and lifecycle features from function components
+
+

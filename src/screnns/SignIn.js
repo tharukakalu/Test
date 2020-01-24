@@ -12,7 +12,6 @@ class SignIn extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             email: '',
             password: '',
@@ -43,12 +42,8 @@ class SignIn extends Component {
     render() {
 
         return (
-            // <View style={{ flex: 1, flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-            //     <Text>SignIn</Text>
-            // </View>
 
             <View style={styles.container}>
-
 
                 <View style={styles.inputlableContainer}>
 
@@ -141,9 +136,6 @@ const styles = StyleSheet.create({
         //   marginLeft: 15,
     },
     buttionContainer: {
-        // flexDirection: 'row',
-        // alignItems: 'center',
-        // justifyContent: 'center',
         alignSelf: 'flex-end',
         marginRight: 30,
         // backgroundColor: 'red',
@@ -152,13 +144,10 @@ const styles = StyleSheet.create({
         // flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-
     },
-
     detailContainer: {
         flex: 1,
         marginLeft: 15,
-
     },
     text: {
         fontSize: 12,
